@@ -27,7 +27,7 @@ npm run dev      # http://localhost:5173/how-llms-work/
 npm run build
 ```
 
-Pushing to `main` deploys to GitHub Pages via `.github/workflows/deploy.yml`.
+Deploy with `npm run deploy`: it builds and pushes `dist/` to the `gh-pages` branch, which GitHub Pages serves.
 
 ## Accuracy notes
 
